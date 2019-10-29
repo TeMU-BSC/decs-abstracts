@@ -1,0 +1,32 @@
+[
+    {
+        "id": "company-01",
+        "articles": [
+            {
+                "id": "article-01",
+                "title": "title-01",
+                "abstract": "abstract-01"
+            },
+            {
+                "id": "article-02",
+                "title": "title-02",
+                "abstract": "abstract-02"
+            }
+        ]
+    },
+    {
+        "id": "company-02",
+        "articles": [
+            {
+                "id": "article-03",
+                "title": "title-03",
+                "abstract": "abstract-03"
+            },
+            {
+                "id": "article-03",
+                "title": "title-03",
+                "abstract": "abstract-03"
+            }
+        ]
+    }
+]
