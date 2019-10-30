@@ -3,11 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ArticleComponent } from './article/article.component';
-import { ArticlesComponent } from './articles/articles.component';
 
 // Angular HTTP
 import { HttpClientModule } from '@angular/common/http';
+
+// Forms module
+import { FormsModule } from '@angular/forms';
+
+// Own components
+import { ArticleComponent } from './components/article/article.component';
+import { ArticlesComponent } from './components/articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,6 @@
 [
     {
-        "id": "company-01",
-        "hash": "e0a2dd8953519a9237c54185ce56db4b",
+        "company": "company-01",
         "articles": [
             {
                 "id": "1",
@@ -51,13 +50,12 @@
             {
                 "id": "96",
                 "title": "La psicología de la envidia y su función en el proceso creativo: un estudio de la psicología simbólica",
-                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico."
+                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico. &#9632;"
             }
         ]
     },
     {
-        "id": "company-02",
-        "hash": "00cb6c0be1f93a7d2fc18fe93a7b365a",
+        "company": "company-02",
         "articles": [
             {
                 "id": "1",
@@ -107,13 +105,12 @@
             {
                 "id": "96",
                 "title": "La psicología de la envidia y su función en el proceso creativo: un estudio de la psicología simbólica",
-                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico."
+                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico. &#9632;"
             }
         ]
     },
     {
-        "id": "company-03",
-        "hash": "bbd5d291391b4e86f6141a712f328f00",
+        "company": "company-03",
         "articles": [
             {
                 "id": "1",
@@ -168,8 +165,7 @@
         ]
     },
     {
-        "id": "company-04",
-        "hash": "912bfca2e22fcce5cd675aa03b19efc6",
+        "company": "company-04",
         "articles": [
             {
                 "id": "1",
@@ -224,8 +220,7 @@
         ]
     },
     {
-        "id": "company-05",
-        "hash": "9d96831ba8597f37a61238f09057e4b3",
+        "company": "company-05",
         "articles": [
             {
                 "id": "1",
@@ -280,8 +275,7 @@
         ]
     },
     {
-        "id": "company-06",
-        "hash": "41cade48e563247de5a3f691e5c9f12a",
+        "company": "company-06",
         "articles": [
             {
                 "id": "1",
@@ -336,8 +330,7 @@
         ]
     },
     {
-        "id": "company-07",
-        "hash": "8b05deca7c10cc7fe005499648e82b4f",
+        "company": "company-07",
         "articles": [
             {
                 "id": "1",
@@ -392,8 +385,7 @@
         ]
     },
     {
-        "id": "company-08",
-        "hash": "c09bd61ca7bd2f90c91f8db716339240",
+        "company": "company-08",
         "articles": [
             {
                 "id": "1",
@@ -448,8 +440,7 @@
         ]
     },
     {
-        "id": "company-09",
-        "hash": "452fba42f297114486e6e50050abc521",
+        "company": "company-09",
         "articles": [
             {
                 "id": "1",
@@ -504,8 +495,7 @@
         ]
     },
     {
-        "id": "company-10",
-        "hash": "ed3d201f9decbbf451dbf9899af67f99",
+        "company": "company-10",
         "articles": [
             {
                 "id": "1",
@@ -560,8 +550,7 @@
         ]
     },
     {
-        "id": "company-11",
-        "hash": "c1f8766ed31d4fc6bda80db88537c4cc",
+        "company": "company-11",
         "articles": [
             {
                 "id": "1",
@@ -616,8 +605,7 @@
         ]
     },
     {
-        "id": "company-12",
-        "hash": "6b0df7bae4c9abfffa197d639e4245d9",
+        "company": "company-12",
         "articles": [
             {
                 "id": "1",
@@ -672,8 +660,7 @@
         ]
     },
     {
-        "id": "company-13",
-        "hash": "993f0558ef09329a3817e368b1dad55c",
+        "company": "company-13",
         "articles": [
             {
                 "id": "1",
@@ -728,8 +715,7 @@
         ]
     },
     {
-        "id": "company-14",
-        "hash": "6fa328f5166bb4681d59070ae17deeee",
+        "company": "company-14",
         "articles": [
             {
                 "id": "1",
@@ -784,8 +770,7 @@
         ]
     },
     {
-        "id": "company-15",
-        "hash": "57bcc194ba348d9067f22db4387d2820",
+        "company": "company-15",
         "articles": [
             {
                 "id": "1",
@@ -840,8 +825,7 @@
         ]
     },
     {
-        "id": "company-16",
-        "hash": "f427f6576bbf1df8023e3a45b8616b98",
+        "company": "company-16",
         "articles": [
             {
                 "id": "1",
@@ -896,8 +880,7 @@
         ]
     },
     {
-        "id": "company-17",
-        "hash": "ceb0f8cb8032e6b2a74cf98800fb46d2",
+        "company": "company-17",
         "articles": [
             {
                 "id": "1",
@@ -952,8 +935,7 @@
         ]
     },
     {
-        "id": "company-18",
-        "hash": "d918ba8e793a7530f586cf83632cc524",
+        "company": "company-18",
         "articles": [
             {
                 "id": "1",
@@ -1008,8 +990,7 @@
         ]
     },
     {
-        "id": "company-19",
-        "hash": "145332e637a523c91b58db72e5e65da0",
+        "company": "company-19",
         "articles": [
             {
                 "id": "1",
@@ -1064,8 +1045,7 @@
         ]
     },
     {
-        "id": "company-20",
-        "hash": "33d6fc07afe9649d9f7312d079d77d83",
+        "company": "company-20",
         "articles": [
             {
                 "id": "1",
@@ -1120,8 +1100,7 @@
         ]
     },
     {
-        "id": "company-21",
-        "hash": "ae0ded77c778066883ee309813509d6b",
+        "company": "company-21",
         "articles": [
             {
                 "id": "1",
@@ -1176,8 +1155,7 @@
         ]
     },
     {
-        "id": "company-22",
-        "hash": "aa24f8359f2dd3c3eba9d5a6159088c9",
+        "company": "company-22",
         "articles": [
             {
                 "id": "1",
@@ -1232,8 +1210,7 @@
         ]
     },
     {
-        "id": "company-23",
-        "hash": "006388a3193c0b4a14e84cad9af73381",
+        "company": "company-23",
         "articles": [
             {
                 "id": "1",
@@ -1288,8 +1265,7 @@
         ]
     },
     {
-        "id": "company-24",
-        "hash": "62065715e8b0ce4eeeb104c42be45fd9",
+        "company": "company-24",
         "articles": [
             {
                 "id": "1",
@@ -1344,8 +1320,7 @@
         ]
     },
     {
-        "id": "company-25",
-        "hash": "2bdf48ecc28a9beb26061f5b658bc6de",
+        "company": "company-25",
         "articles": [
             {
                 "id": "1",
@@ -1400,8 +1375,7 @@
         ]
     },
     {
-        "id": "company-26",
-        "hash": "8890e5043aa952b98ea7070416129d56",
+        "company": "company-26",
         "articles": [
             {
                 "id": "1",
@@ -1456,8 +1430,7 @@
         ]
     },
     {
-        "id": "company-27",
-        "hash": "6173a2a5cd4dc21e63b0cc2b89a7d472",
+        "company": "company-27",
         "articles": [
             {
                 "id": "1",
@@ -1512,8 +1485,7 @@
         ]
     },
     {
-        "id": "company-28",
-        "hash": "c73a82193d3b4626a536dda8916190d8",
+        "company": "company-28",
         "articles": [
             {
                 "id": "1",
@@ -1568,8 +1540,7 @@
         ]
     },
     {
-        "id": "company-29",
-        "hash": "7273503ecbc22b89d2c08057bdc7e884",
+        "company": "company-29",
         "articles": [
             {
                 "id": "1",
@@ -1624,8 +1595,7 @@
         ]
     },
     {
-        "id": "company-30",
-        "hash": "449be84de83b172329756d63b35a5a51",
+        "company": "company-30",
         "articles": [
             {
                 "id": "1",
@@ -1680,8 +1650,7 @@
         ]
     },
     {
-        "id": "company-31",
-        "hash": "9682f01811e34c086366982497a53169",
+        "company": "company-31",
         "articles": [
             {
                 "id": "1",
@@ -1736,8 +1705,7 @@
         ]
     },
     {
-        "id": "company-32",
-        "hash": "aae8f022162371638503b70ba09ab5c3",
+        "company": "company-32",
         "articles": [
             {
                 "id": "1",
@@ -1792,8 +1760,7 @@
         ]
     },
     {
-        "id": "company-33",
-        "hash": "a2e4f35cd85bfb3bc432dc61f928bde0",
+        "company": "company-33",
         "articles": [
             {
                 "id": "1",
@@ -1848,8 +1815,7 @@
         ]
     },
     {
-        "id": "company-34",
-        "hash": "ce8980c0d9c925f665bb21c236fa2581",
+        "company": "company-34",
         "articles": [
             {
                 "id": "1",
@@ -1904,8 +1870,7 @@
         ]
     },
     {
-        "id": "company-35",
-        "hash": "04bc1578a4121e206abc96e999068908",
+        "company": "company-35",
         "articles": [
             {
                 "id": "1",
@@ -1960,8 +1925,7 @@
         ]
     },
     {
-        "id": "company-36",
-        "hash": "8b44b7536ace9d53ca23f16d9a9b616a",
+        "company": "company-36",
         "articles": [
             {
                 "id": "1",
@@ -2016,8 +1980,7 @@
         ]
     },
     {
-        "id": "company-37",
-        "hash": "99089d95ca7981917714e06db2005446",
+        "company": "company-37",
         "articles": [
             {
                 "id": "1",
@@ -2072,8 +2035,7 @@
         ]
     },
     {
-        "id": "company-38",
-        "hash": "fdb195f2afb9a521393fef702e2bdeb8",
+        "company": "company-38",
         "articles": [
             {
                 "id": "1",
@@ -2128,8 +2090,7 @@
         ]
     },
     {
-        "id": "company-39",
-        "hash": "9fc479894c5bb7d53caa968534b53213",
+        "company": "company-39",
         "articles": [
             {
                 "id": "1",
@@ -2184,8 +2145,7 @@
         ]
     },
     {
-        "id": "company-40",
-        "hash": "71dae14b677664e0dcadf7fa2731f861",
+        "company": "company-40",
         "articles": [
             {
                 "id": "1",
@@ -2230,7 +2190,7 @@
             {
                 "id": "96",
                 "title": "La psicología de la envidia y su función en el proceso creativo: un estudio de la psicología simbólica",
-                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico."
+                "abstract": "El autor analiza la pieza de teatro \"Amadeus\" y estudia la función de la envidia en la relación de Mozart y Salieri. Caracteriza la envidia como una función estructurante normal de la mayor importancia en el desarrollo de la conciencia. Llama atención a la dificultad de comprender este hecho debido a que nuestras concepciones psicológicas se hallan todavía dominadas por la obra represora-puritana de la Inquisición. Afirma que en la presentación de la pieza la patología mental de Mozart es aún mayor que la de Salieri. Relaciona la envidia patológica de Mozart con un complejo paterno negativo y la de Salieri con la prostitución de su Anima. Explica el deterioro progresivo de las personalidades de Mozart y Salieri: al no asumir su envidia normal, ésta se volvió cada vez más sombría y patológica, superando el dinamismo neurótico y alcanzando lo psicótico. Describe la función estructurante normal de los celos para mejor discriminar la envidia y ejemplificar los celos patológicos con la pieza Otelo de Shakespeare. Finalmente, diferencia la función estructurante normal de los celos y la envidia en los ciclos arquetípicos matriarcal, patriarcal, de alteridad y cósmico. &#9632;"
             },
             {
                 "id": "109",
