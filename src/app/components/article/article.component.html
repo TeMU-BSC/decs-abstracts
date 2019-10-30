@@ -6,6 +6,7 @@
     </button>
   </div>
   <div class="card-body">
-    <p class="card-text">{{ article.abstract }}</p>
+    <!-- IMPORTANT: innerHTML used to show entities like &#9632; (black square) and &#946; (beta symbol) -->
+    <p class="card-text" innerHTML="{{ article.abstract }}"></p>
   </div>
 </div>
