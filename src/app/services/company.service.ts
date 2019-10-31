@@ -12,14 +12,14 @@ export class CompanyService {
   constructor(private http: HttpClient) { }
 
   getSamples(): Observable<any[]> {
-    return this.http.get<any[]>('http://localhost:4200/assets/samples.json')
+    return this.http.get<any[]>('assets/samples.json')
   }
 
   getCompanies(): Observable<Company[]> {
-    return this.http.get<Company[]>('http://localhost:4200/assets/companies.json')
+    return this.http.get<Company[]>('assets/companies.json')
   }
 
   getLinks(): Observable<Link[]> {
-    return this.http.get<Link[]>('http://localhost:4200/assets/links.json')
+    return this.http.get<Link[]>('assets/links.json')
   }
 }
