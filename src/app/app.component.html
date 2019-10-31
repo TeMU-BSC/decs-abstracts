@@ -22,6 +22,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
+      <!-- <span *ngIf="company" class="text-white mr-2">Bienvenido/a, {{ company.name }}</span> -->
       <input class="form-control mr-sm-2" placeholder="Código único" aria-label="Search" [(ngModel)]="companyHash"
         name="companyHash">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="loadArticles()">Cargar
@@ -34,17 +35,15 @@
   <div class>
     <h3>Instrucciones</h3>
     <ul>
-      <li>
-        En el excel encontrareis 10 columnas, una para cada documento. La cabecera de cada una de estas columnas es el
+      <li>En el excel encontrareis 10 columnas, una para cada documento. La cabecera de cada una de estas columnas es
+        el
         <b>"ID Artículo"</b> que se visualiza aquí.
       </li>
-      <li>
-        Las casillas verdes contienen los descriptores pre-codificados (capítulo 5 del <a target="_blank"
+      <li>Las casillas verdes contienen los descriptores pre-codificados (capítulo 5 del <a target="_blank"
           href="http://metodologia.lilacs.bvsalud.org/download/E/LILACS-4-ManualIndexacao-es.pdf">manual</a>). Marcar
         con
         una "X" la casilla que corresponda.</li>
-      <li>
-        Para añadir más descriptores, usad las casillas en gris que hay más abajo, introduciendo el <b>"Número del
+      <li>Para añadir más descriptores, usad las casillas en gris que hay más abajo, introduciendo el <b>"Número del
           Registro"</b>
         que encontrareis en <a target="_blank" href="http://decses.bvsalud.org/E/homepagee.htm">navegador DeCS</a>.
       </li>
@@ -55,6 +54,9 @@
       <li>Para cargar los artículos que corresponden indizar a vuestra organización, pegad el <b>"codigo único"</b> de
         32
         caracteres que os hemos proporcionado en la barra superior derecha de esta página web.
+      </li>
+      <li>Una vez acabado, enviad el Excel cumplimentado a través de este <a href="#nuestro-google-form">formulario
+          web</a>.
       </li>
     </ul>
   </div>
