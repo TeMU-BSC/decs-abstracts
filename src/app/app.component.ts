@@ -1,8 +1,8 @@
-import { Component, ViewChild, AfterViewInit, OnInit } from '@angular/core';
-import { Md5 } from 'ts-md5/dist/md5';
-import { CompanyService } from './services/company.service';
-import { Company } from './models/company.model';
-import { Link } from './models/link.model';
+import { Component, OnInit } from '@angular/core'
+// import { Md5 } from 'ts-md5/dist/md5'
+import { AppService } from './app.service'
+import { Annotator, Link } from './app.models'
+import { FormBuilder, FormGroup } from '@angular/forms'
 
 
 @Component({
@@ -12,46 +12,48 @@ import { Link } from './models/link.model';
 })
 export class AppComponent implements OnInit {
 
-  company: Company
-  companyHash: string
+  annotator: Annotator
+  emailForm: FormGroup
   links: Link[]
 
-  constructor(private companyService: CompanyService) { }
+  constructor(private appService: AppService, private formBuilder: FormBuilder) {
+    this.emailForm = this.formBuilder.group({
+      email: ''
+    })
+  }
 
   ngOnInit() {
     this.getLinks()
-    this.generateHashes()
+    // this.generateHashes()
   }
 
   getLinks() {
-    this.companyService.getLinks().subscribe(data => this.links = data)
+    this.appService.getLinks().subscribe(data => this.links = data)
   }
 
-  loadArticles() {
-    this.companyService.getCompanies().subscribe(
-      data => {
-        this.company = data.find(company => company.hash === this.companyHash)
-      }
+  loadArticles(email: string) {
+    this.appService.getAnnotators().subscribe(
+      data => this.annotator = data.find(annotator => annotator.email === email)
     )
   }
 
-  generateHashes() {
-    this.companyService.getSamples().subscribe(
-      data => {
-        let updatedCompanies: Company[] = []
-        data.forEach(
-          sample => {
-            const updatedCompany: Company = {
-              id: sample['company'],
-              hash: Md5.hashStr(sample['company']),
-              articles: sample['articles']
-            }
-            updatedCompanies.push(updatedCompany)
-          }
-        )
-        console.log(JSON.stringify(updatedCompanies))
-      }
-    )
-  }
+  // generateHashes() {
+  //   this.appService.getSamples().subscribe(
+  //     data => {
+  //       const updatedCompanies: Annotator[] = []
+  //       data.forEach(
+  //         sample => {
+  //           const updatedAnnotator: Annotator = {
+  //             id: sample.annotator,
+  //             hash: Md5.hashStr('sample.company'),
+  //             articles: sample.articles
+  //           }
+  //           updatedCompanies.push(updatedAnnotator)
+  //         }
+  //       )
+  //       console.log(JSON.stringify(updatedCompanies))
+  //     }
+  //   )
+  // }
 
 }

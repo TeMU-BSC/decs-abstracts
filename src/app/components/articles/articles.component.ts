@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Company } from '../../models/company.model';
+import { Component, Input } from '@angular/core'
+import { Annotator } from '../../app.models'
 
 @Component({
   selector: 'app-articles',
@@ -7,7 +7,5 @@ import { Company } from '../../models/company.model';
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent {
-
-  @Input() company: Company
-
+  @Input() annotator: Annotator
 }

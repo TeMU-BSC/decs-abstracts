@@ -1,7 +1,3 @@
-<!-- <header>
-  <app-header></app-header>
-</header> -->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#">Visualizador de abstracts para indizar DeCS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -21,11 +17,10 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <!-- <span *ngIf="company" class="text-white mr-2">Bienvenido/a, {{ company.name }}</span> -->
-      <input class="form-control mr-sm-2" placeholder="Código único" aria-label="Search" [(ngModel)]="companyHash"
-        name="companyHash">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="loadArticles()">Cargar
+    <form [formGroup]="emailForm" class="form-inline my-2 my-lg-0">
+      <span *ngIf="annotator" class="text-white mr-2">Bienvenido/a, {{ annotator.name }}</span>
+      <input class="form-control mr-sm-2" placeholder="Introduce tu email" formControlName="email">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="loadArticles(emailForm.value.email)">Cargar
         artículos</button>
     </form>
   </div>
@@ -59,7 +54,7 @@
       </li>
     </ul>
   </div>
-  <app-articles [company]="company"></app-articles>
+  <app-articles [annotator]="annotator"></app-articles>
 </main>
 
 <footer>
