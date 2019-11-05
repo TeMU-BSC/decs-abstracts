@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
 
   loadArticles() {
     this.appService.getAnnotators().subscribe(
-      data => this.annotator = data.find(annotator => annotator.email === this.email.value),
+      data => this.annotator = data.find(annotator => annotator.email.toLowerCase().trim() === this.email.value.toLowerCase().trim()),
       error => console.log(error),
       () => this.greeting = this.annotator.gender === 'woman' ? 'Bienvenida' : 'Bienvenido'
     )
