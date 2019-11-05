@@ -8,3 +8,7 @@ footer {
 a {
     color: #5bc0de;
 }
+
+.large-input {
+    width: 20em;
+}

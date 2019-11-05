@@ -19,7 +19,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <span *ngIf="annotator" class="text-white mr-2">{{ greeting }}, {{ annotator.name }}</span>
-      <input class="form-control mr-sm-2" placeholder="Introduce tu email" [formControl]="email">
+      <input class="form-control mr-sm-2 large-input" placeholder="Introduce tu email" [formControl]="email">
       <button class="btn btn-info my-2 my-sm-0" (click)="loadArticles()">Cargar artículos</button>
     </form>
   </div>
