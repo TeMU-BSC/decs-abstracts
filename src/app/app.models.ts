@@ -2,6 +2,7 @@ export interface Annotator {
     id: string,
     name: string,
     email: string,
+    gender: string,
     articles: Article[]
 }
 

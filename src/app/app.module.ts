@@ -10,6 +10,10 @@ import { HttpClientModule } from '@angular/common/http'
 // Forms module
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
+// Angular Flex Layout
+// https://github.com/angular/flex-layout
+import { FlexLayoutModule } from '@angular/flex-layout'
+
 // Own components
 import { ArticleComponent } from './components/article/article.component'
 import { ArticlesComponent } from './components/articles/articles.component'
@@ -25,7 +29,8 @@ import { ArticlesComponent } from './components/articles/articles.component'
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

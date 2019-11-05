@@ -12,11 +12,15 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   getAnnotators(): Observable<Annotator[]> {
-    return this.http.get<Annotator[]>('assets/samples.json')
+    return this.http.get<Annotator[]>('assets/samples_v2.json')
   }
 
   getLinks(): Observable<Link[]> {
     return this.http.get<Link[]>('assets/links.json')
+  }
+
+  getInstructions(): Observable<string[]> {
+    return this.http.get<string[]>('assets/instructions.json')
   }
 
 }

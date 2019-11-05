@@ -1,7 +1,9 @@
 [
     {
-        "id": "company-01",
-        "hash": "e0a2dd8953519a9237c54185ce56db4b",
+        "annotator": "A1",
+        "name": "Angélica Novillo",
+        "email": "anovillo74@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -56,8 +58,10 @@
         ]
     },
     {
-        "id": "company-02",
-        "hash": "00cb6c0be1f93a7d2fc18fe93a7b365a",
+        "annotator": "A2",
+        "name": "Francisca Valero",
+        "email": "franciscavalero@hotmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -112,8 +116,10 @@
         ]
     },
     {
-        "id": "company-03",
-        "hash": "bbd5d291391b4e86f6141a712f328f00",
+        "annotator": "A3",
+        "name": "Mónica Aldea",
+        "email": "monicaldea@hotmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -168,8 +174,10 @@
         ]
     },
     {
-        "id": "company-04",
-        "hash": "912bfca2e22fcce5cd675aa03b19efc6",
+        "annotator": "A4",
+        "name": "Fabiola Triviño Güiza ",
+        "email": "f.guiza@ntgs.es",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -224,8 +232,10 @@
         ]
     },
     {
-        "id": "company-05",
-        "hash": "9d96831ba8597f37a61238f09057e4b3",
+        "annotator": "A5",
+        "name": "Elisabeth Biruel",
+        "email": "beth.biruel@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -280,8 +290,10 @@
         ]
     },
     {
-        "id": "company-06",
-        "hash": "41cade48e563247de5a3f691e5c9f12a",
+        "annotator": "A6",
+        "name": "Carlos Hortal Muñoz",
+        "email": "carloshm1980@gmail.com",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -336,8 +348,10 @@
         ]
     },
     {
-        "id": "company-07",
-        "hash": "8b05deca7c10cc7fe005499648e82b4f",
+        "annotator": "A7",
+        "name": "Luis Quevedo",
+        "email": "luisquevedo@educatiosalud.com",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -392,8 +406,10 @@
         ]
     },
     {
-        "id": "company-08",
-        "hash": "c09bd61ca7bd2f90c91f8db716339240",
+        "annotator": "A8",
+        "name": "Elena Sampaino",
+        "email": "cibchaco@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -448,8 +464,10 @@
         ]
     },
     {
-        "id": "company-09",
-        "hash": "452fba42f297114486e6e50050abc521",
+        "annotator": "A9",
+        "name": "Maricela Piña Pozas",
+        "email": "maricela.pozas@insp.mx",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -504,8 +522,10 @@
         ]
     },
     {
-        "id": "company-10",
-        "hash": "ed3d201f9decbbf451dbf9899af67f99",
+        "annotator": "A10",
+        "name": "Salvador Octavio Montes",
+        "email": "salvador_777@yahoo.com",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -560,8 +580,10 @@
         ]
     },
     {
-        "id": "company-11",
-        "hash": "c1f8766ed31d4fc6bda80db88537c4cc",
+        "annotator": "A11",
+        "name": "Amalia Ortiz Trujillano",
+        "email": "amalia.ortiz@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -616,8 +638,10 @@
         ]
     },
     {
-        "id": "company-12",
-        "hash": "6b0df7bae4c9abfffa197d639e4245d9",
+        "annotator": "A12",
+        "name": "Carolina Suárez Medina",
+        "email": "caritosuarezm@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -672,8 +696,10 @@
         ]
     },
     {
-        "id": "company-13",
-        "hash": "993f0558ef09329a3817e368b1dad55c",
+        "annotator": "A13",
+        "name": "Claudia Patricia Méndez Rátiva",
+        "email": "mendez.c@javeriana.edu.co",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -728,8 +754,10 @@
         ]
     },
     {
-        "id": "company-14",
-        "hash": "6fa328f5166bb4681d59070ae17deeee",
+        "annotator": "A14",
+        "name": "Luz Ávila",
+        "email": "avila_luz@yahoo.es",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -784,8 +812,10 @@
         ]
     },
     {
-        "id": "company-15",
-        "hash": "57bcc194ba348d9067f22db4387d2820",
+        "annotator": "A15",
+        "name": "Leticia M. Cuellar-Pompa",
+        "email": "lcuellarpompa@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -840,8 +870,10 @@
         ]
     },
     {
-        "id": "company-16",
-        "hash": "f427f6576bbf1df8023e3a45b8616b98",
+        "annotator": "C1",
+        "name": "Fabiana Salerno",
+        "email": "ban@renal.org.ar",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -896,8 +928,10 @@
         ]
     },
     {
-        "id": "company-17",
-        "hash": "ceb0f8cb8032e6b2a74cf98800fb46d2",
+        "annotator": "C2",
+        "name": "Floriana Colombo",
+        "email": "biblioteca@fleni.org.ar",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -952,8 +986,10 @@
         ]
     },
     {
-        "id": "company-18",
-        "hash": "d918ba8e793a7530f586cf83632cc524",
+        "annotator": "C3",
+        "name": "Natalia Canova",
+        "email": "secretariacientifica@ambb.com.ar",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1008,8 +1044,10 @@
         ]
     },
     {
-        "id": "company-19",
-        "hash": "145332e637a523c91b58db72e5e65da0",
+        "annotator": "C4",
+        "name": "Verónica Gallo",
+        "email": "biblioteca-sspsalud@ms.gba.gov.ar",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1064,8 +1102,10 @@
         ]
     },
     {
-        "id": "company-20",
-        "hash": "33d6fc07afe9649d9f7312d079d77d83",
+        "annotator": "C5",
+        "name": "Ana Lorena Niño Téllez",
+        "email": "lorenin10@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1120,8 +1160,10 @@
         ]
     },
     {
-        "id": "company-21",
-        "hash": "ae0ded77c778066883ee309813509d6b",
+        "annotator": "C6",
+        "name": "Heidi Elizabeth Molina Arana",
+        "email": "heidi.molina@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1176,8 +1218,10 @@
         ]
     },
     {
-        "id": "company-22",
-        "hash": "aa24f8359f2dd3c3eba9d5a6159088c9",
+        "annotator": "C7",
+        "name": "Valentina Santa Cruz Molina",
+        "email": "vsantacruz@incap.int",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1232,8 +1276,10 @@
         ]
     },
     {
-        "id": "company-23",
-        "hash": "006388a3193c0b4a14e84cad9af73381",
+        "annotator": "C8",
+        "name": "Conxi Caro Benito",
+        "email": "ccaro@mutuaterrassa.es",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1288,8 +1334,10 @@
         ]
     },
     {
-        "id": "company-24",
-        "hash": "62065715e8b0ce4eeeb104c42be45fd9",
+        "annotator": "C9",
+        "name": "Marcos Antonio Catalán Vega",
+        "email": "ma.catalan@pssjd.org",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -1344,8 +1392,10 @@
         ]
     },
     {
-        "id": "company-25",
-        "hash": "2bdf48ecc28a9beb26061f5b658bc6de",
+        "annotator": "C10",
+        "name": "Rebeca Isabel-Gómez",
+        "email": "rebeca.isabel@juntadeandalucia.es",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1400,8 +1450,10 @@
         ]
     },
     {
-        "id": "company-26",
-        "hash": "8890e5043aa952b98ea7070416129d56",
+        "annotator": "C11",
+        "name": "Carolina Pinín Osorio",
+        "email": "carolina.pininosorio@sespa.es",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1456,8 +1508,10 @@
         ]
     },
     {
-        "id": "company-27",
-        "hash": "6173a2a5cd4dc21e63b0cc2b89a7d472",
+        "annotator": "C12",
+        "name": "Alicia Fátima Gómez",
+        "email": "aliciaf.gomez@yahoo.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1512,8 +1566,10 @@
         ]
     },
     {
-        "id": "company-28",
-        "hash": "c73a82193d3b4626a536dda8916190d8",
+        "annotator": "C13",
+        "name": "Maria Victoria Madrid",
+        "email": "vicky.madridg@gmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1568,8 +1624,10 @@
         ]
     },
     {
-        "id": "company-29",
-        "hash": "7273503ecbc22b89d2c08057bdc7e884",
+        "annotator": "C14",
+        "name": "Olga Mejia",
+        "email": "revistagastro@cable.net.co",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1624,8 +1682,10 @@
         ]
     },
     {
-        "id": "company-30",
-        "hash": "449be84de83b172329756d63b35a5a51",
+        "annotator": "C15",
+        "name": "Lucero Pachón",
+        "email": "luceropachon@yahoo.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1680,8 +1740,10 @@
         ]
     },
     {
-        "id": "company-31",
-        "hash": "9682f01811e34c086366982497a53169",
+        "annotator": "C16",
+        "name": "Hugo Romo Castillo",
+        "email": "hromo@iess.gob.ec",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -1736,8 +1798,10 @@
         ]
     },
     {
-        "id": "company-32",
-        "hash": "aae8f022162371638503b70ba09ab5c3",
+        "annotator": "C17",
+        "name": "Juan Vicente Fernández Moreno",
+        "email": "juanvicente.fernandez@sjd.es",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -1792,8 +1856,10 @@
         ]
     },
     {
-        "id": "company-33",
-        "hash": "a2e4f35cd85bfb3bc432dc61f928bde0",
+        "annotator": "C18",
+        "name": "Regina de De la Vega",
+        "email": "rdedelavega@ufm.edu",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1848,8 +1914,10 @@
         ]
     },
     {
-        "id": "company-34",
-        "hash": "ce8980c0d9c925f665bb21c236fa2581",
+        "annotator": "C19",
+        "name": "Luis Alvarez Rodríguez",
+        "email": "learunsa@hotmail.com",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -1904,8 +1972,10 @@
         ]
     },
     {
-        "id": "company-35",
-        "hash": "04bc1578a4121e206abc96e999068908",
+        "annotator": "C20",
+        "name": "Sissy Soledad Mena Ordoñez",
+        "email": "sissymena@hotmail.com",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -1960,8 +2030,10 @@
         ]
     },
     {
-        "id": "company-36",
-        "hash": "8b44b7536ace9d53ca23f16d9a9b616a",
+        "annotator": "C21",
+        "name": "Liubenka Obrenovich",
+        "email": "liube@cedro.org.pe",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -2016,8 +2088,10 @@
         ]
     },
     {
-        "id": "company-37",
-        "hash": "99089d95ca7981917714e06db2005446",
+        "annotator": "C22",
+        "name": "David Villarreal-Zegarra",
+        "email": "dvillarrealzegarra@gmail.com",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",
@@ -2072,8 +2146,10 @@
         ]
     },
     {
-        "id": "company-38",
-        "hash": "fdb195f2afb9a521393fef702e2bdeb8",
+        "annotator": "C23",
+        "name": "Damaris V. Tejedor De León",
+        "email": "damaris.tejedor@up.ac.pa",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -2128,8 +2204,10 @@
         ]
     },
     {
-        "id": "company-39",
-        "hash": "9fc479894c5bb7d53caa968534b53213",
+        "annotator": "C24",
+        "name": "Velkis V. Valdés",
+        "email": "velkis.valdes@up.ac.pa",
+        "gender": "woman",
         "articles": [
             {
                 "id": "1",
@@ -2184,8 +2262,10 @@
         ]
     },
     {
-        "id": "company-40",
-        "hash": "71dae14b677664e0dcadf7fa2731f861",
+        "annotator": "C25",
+        "name": "Carlos Manuel Reyes",
+        "email": "cmanuel@infomed.sld.cu",
+        "gender": "man",
         "articles": [
             {
                 "id": "1",

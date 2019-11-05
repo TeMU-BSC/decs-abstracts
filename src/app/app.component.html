@@ -18,45 +18,53 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <span *ngIf="annotator" class="text-white mr-2">Bienvenido/a, {{ annotator.name }}</span>
+      <span *ngIf="annotator" class="text-white mr-2">{{ greeting }}, {{ annotator.name }}</span>
       <input class="form-control mr-sm-2" placeholder="Introduce tu email" [formControl]="email">
-      <button class="btn btn-info my-2 my-sm-0" type="submit" (click)="loadArticles(email.value)">Cargar
-        artículos</button>
+      <button class="btn btn-info my-2 my-sm-0" (click)="loadArticles()">Cargar artículos</button>
     </form>
   </div>
 </nav>
 
 <main class="container p-3">
-  <div class>
-    <h3>Instrucciones</h3>
-    <ul>
-      <li>En el excel encontrareis 10 columnas, una para cada documento. La cabecera de cada una de estas columnas es
-        el
-        <b>"ID Artículo"</b> que se visualiza aquí.
-      </li>
-      <li>Las casillas verdes contienen los descriptores pre-codificados (capítulo 5 del <a target="_blank"
-          href="http://metodologia.lilacs.bvsalud.org/download/E/LILACS-4-ManualIndexacao-es.pdf">manual</a>). Marcar
-        con
-        una "X" la casilla que corresponda.</li>
-      <li>Para añadir más descriptores, usad las casillas en gris que hay más abajo, introduciendo el <b>"Número del
-          Registro"</b>
-        que encontrareis en <a target="_blank" href="http://decses.bvsalud.org/E/homepagee.htm">navegador DeCS</a>.
-      </li>
-      <li>Aquí tenéis un ejemplo de cómo se debe cumplimentar el <a target="_blank"
-          href="assets/decs_example.png">fichero Excel</a>.
-      </li>
-      <li>Para cargar los artículos que corresponden indizar a vuestra organización, pegad el <b>"codigo único"</b> de
-        32
-        caracteres que os hemos proporcionado en la barra superior derecha de esta página web.
-      </li>
-      <li>Una vez acabado, enviad el Excel cumplimentado a través de este <a href="#nuestro-google-form">formulario
-          web</a>.
-      </li>
-    </ul>
-  </div>
+  <h3>Instrucciones</h3>
+  <ul>
+    <li *ngFor="let item of instructions" [innerHTML]="item"></li>
+  </ul>
   <app-articles *ngIf="annotator" [annotator]="annotator"></app-articles>
 </main>
 
-<footer>
-
+<footer *ngIf="!annotator" fxLayout="column" fxLayout.gt-md="row" fxLayoutAlign="center" fxLayoutAlign.gt-md="space-around center"
+  fxLayoutGap="2em" class="w-100 bg-dark text-light text-center p-3">
+  <small fxFlex="33">
+    Powered by the
+    <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/text-mining" target="_blank">
+      Text Mining Unit
+    </a>
+    at
+    <a href="https://www.bsc.es/" target="_blank">BSC</a> &copy; 2019.
+    <br>
+    Code licensed under a MIT License.
+  </small>
+  <small fxFlex="33">
+    Find us on
+    <br>
+    <span fxLayout="row" fxLayoutAlign="center" fxLayoutGap="2em">
+      <a href="https://es.linkedin.com/in/plan-tl-tecnolog%C3%ADas-lenguaje-5b49aa182" target="_blank"
+        matTooltip="LinkedIn">
+        <i class="fab fa-linkedin h2 text-info"></i>
+      </a>
+      <a href="https://github.com/PlanTL-SANIDAD" target="_blank" matTooltip="GitHub">
+        <i class="fab fa-github h2 text-info"></i>
+      </a>
+      <a href="https://twitter.com/TeMU_BSC" target="_blank" matTooltip="Twitter">
+        <i class="fab fa-twitter h2 text-info"></i>
+      </a>
+    </span>
+  </small>
+  <small fxFlex="33">
+    In collaboration with
+    <a href="https://www.plantl.gob.es/" target="_blank">
+      Plan de Impulso de las Tecnologías del Lenguaje
+    </a>
+  </small>
 </footer>

@@ -1,0 +1,9 @@
+[
+    "Para cargar los artículos que os corresponden indizar, pegad/escribid vuestro correo electrónico en la barra superior derecha de esta página web.",
+    "En el Excel encontrareis 10 columnas, una para cada documento. La cabecera de cada una de estas columnas es el <b>ID Artículo</b> que se visualiza junto al título de cada abstract.",
+    "Las casillas azules son para definir la <b>dificultad de indización</b> de cada uno de los documentos entre fácil, medio o difícil.",
+    "Las casillas verdes contienen los descriptores pre-codificados (capítulo 5 del <a target='_blank' href='http://metodologia.lilacs.bvsalud.org/download/E/LILACS-4-ManualIndexacao-es.pdf'>manual</a>). Marcar con una \"X\" la casilla que corresponda.",
+    "Para añadir más descriptores, usad las casillas en gris que hay más abajo, introduciendo el <b>Número del Registro</b> que encontrareis en el <a target='_blank' href='http://decses.bvsalud.org/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&interface_language=e&previous_page=homepage&previous_task=NULL&task=start'>navegador DeCS</a>.",
+    "Aquí tenéis un <a target='_blank' href='assets/excel-example.png'>ejemplo</a> de cómo se debe cumplimentar el fichero Excel.",
+    "Una vez acabado, enviad el Excel cumplimentado a través de este <a target='_blank' href='#'>formulario web</a>."
+]
