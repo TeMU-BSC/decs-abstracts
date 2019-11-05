@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
     this.appService.getInstructions().subscribe(data => this.instructions = data)
   }
 
-  loadArticles(email: string) {
+  loadArticles() {
     this.appService.getAnnotators().subscribe(
       data => this.annotator = data.find(annotator => annotator.email === this.email.value),
       error => console.log(error),
