@@ -12,7 +12,7 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   getAnnotators(): Observable<Annotator[]> {
-    return this.http.get<Annotator[]>('assets/samples_v2.json')
+    return this.http.get<Annotator[]>('assets/annotators_assignments.json')
   }
 
   getLinks(): Observable<Link[]> {
